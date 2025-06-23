@@ -1,0 +1,145 @@
+<h1 class="heading" style="color: white; font-weight:bold; padding:5px;">Edit Path</h1>
+<div class="d-flex justify-content-between flex-wrap flex-md nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+  <h1 class="h2">
+    <%= sequence.seqName %>
+  </h1>
+
+</div>
+
+<div class="col py-3">
+  <div class="row">
+    <div class="col">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <!-- <li class="breadcrumb-item"><a href="/">Dashboard</a></li>-->
+          <li class="breadcrumb-item active" style="color: white; font-weight:bold; padding:5px;">
+            <%=sequence.seqName %>
+          </li>
+        </ol>
+      </nav>
+    </div>
+    <!-- <div class="col text-end fw-lighter">
+      <b>Last Updated: <%= new Date(sequence.updatedAt).toUTCString() %></b>
+      <b>UserId:</b>
+      <%= sequence._id %>
+    </div>-->
+  </div>
+</div>
+
+<form action="/editsequence/<%= sequence._id %>?_method=PUT" method="POST">
+  <div class="row form-group mb-4">
+    <div class="col">
+      <label for="Name" style="color: white; font-weight:bold; padding:5px;">Name</label>
+      <input type="text" class="form-control" id="seqName" name="seqName" value="<%= sequence.seqName %>"
+        placeholder="Name" required />
+    </div>
+  </div>
+
+  <div class="form-group mb-4">
+    <button type="submit" class="btn btn-primary" style="background-color: black;">Update Path</button>
+
+    <button type="button" class="btn btn-danger" data-bs-toggle="modal" id="deleteButton" data-bs-target="#deleteModal"
+      style="background-color: black;">
+      Delete Sequence
+    </button>
+  </div>
+</form>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="deleteModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="modal-title">Path being removed</div>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>
+          This will remove the Path
+          <b class="fw-bold">
+            <%= sequence.seqName %>
+          </b><br />
+          Are you sure?
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Close
+        </button>
+        <form action="/editsequence/<%= sequence._id %>?_method=DELETE" method="POST" class="position-relative">
+          <button type="submit" class="btn btn-primary">
+            Yes, Remove path
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="stopsec">
+  <form action="/addstopsequence/<%= sequence._id %>" method="POST">
+    <div class="row form-group mb-4">
+      <div class="container">
+        <label for="stopDropdown" style="color: white; font-weight:bold; padding:5px;">Select a Stop:</label>
+        <select class="form-select" id="stopDropdown" name="stopDropdown">
+          <% stops.forEach(stop=> { %>
+            <option value="<%= stop._id %>_<%= stop.stopName %>">
+              <%= stop.stopName %>
+            </option>
+            <% }); %>
+        </select>
+      </div>
+      <div class="col">
+        <label for="Name" style="color: white; font-weight:bold; padding:5px;">Path Number</label>
+        <input type="text" class="form-control" id="seqNumber" name="seqNumber" value="" placeholder="Path Number"
+          required />
+      </div>
+      <div class="form-group mb-4 stopbtn">
+        <button type="submit" class="btn btn-primary addbutton" style="background-color: black;">
+          Add Stop
+        </button>
+      </div>
+    </div>
+  </form>
+</div>
+
+<h2 class="" style="color: white; font-weight:bold; padding:5px;">Stops</h2>
+<div class="table-responsive">
+  <table class="table table-striped table-sm">
+    <thead>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">Path Number</th>
+        <th scope="col" class="text-end">Action</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% sequence.stops.forEach(element=> { %>
+        <tr class="align-middle">
+          <td>
+            <% const stop=stops.find(stop=> stop._id.toString() ===
+              element.stopId); %> <%= stop ? stop.stopName : 'Unknown Stop' %>
+          </td>
+          <td>
+            <%= element.seqNumber%>
+          </td>
+          <td class="text-end">
+            <div class="d-flex flex-row justify-content-end gap-2">
+              <a href="/viewstop/<%= element.stopId%>" style="background-color: black;" type="button"
+                class="btn btn-primary btn-small">
+                <i class="bi bi-eye"></i>
+              </a>
+
+              <form action="/deletestopsequence/<%= sequence._id %>/<%= element.stopId%>?_method=DELETE" method="POST"
+                class="position-relative">
+                <button style="background-color: purple;" type="submit" class="btn btn-danger btn-small">
+                  <i class="bi bi-trash"></i>
+                </button>
+              </form>
+            </div>
+          </td>
+        </tr>
+        <% }) %>
+    </tbody>
+  </table>
+</div>

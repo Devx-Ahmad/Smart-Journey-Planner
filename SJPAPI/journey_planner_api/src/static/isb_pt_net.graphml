@@ -1,0 +1,646 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d6" for="edge" attr.name="distance" attr.type="double"/>
+<key id="d5" for="edge" attr.name="isRouteShift" attr.type="boolean"/>
+<key id="d4" for="edge" attr.name="isRoute" attr.type="boolean"/>
+<key id="d3" for="edge" attr.name="distance" attr.type="long"/>
+<key id="d2" for="node" attr.name="routeId" attr.type="string"/>
+<key id="d1" for="node" attr.name="longitude" attr.type="double"/>
+<key id="d0" for="node" attr.name="latitude" attr.type="double"/>
+<graph edgedefault="directed">
+<!-- hi -->
+<node id="_Barakahu">
+  <data key="d0">33.73545711136281</data>
+  <data key="d1">73.16536185943997</data>
+  <data key="d2">green_line_head_pims)</data>
+</node>
+<node id="_Shahdara Stop south">
+  <data key="d0">33.73452387358615</data>
+  <data key="d1">73.15921949333925</data>
+  <data key="d2">green_line_head_pims)</data>
+</node>
+<node id="_Malpur South">
+  <data key="d0">33.72892256947114</data>
+  <data key="d1">73.1440615878493</data>
+  <data key="d2">green_line_head_pims)</data>
+</node>
+<node id="_Lake view South">
+  <data key="d0">33.722964</data>
+  <data key="d1">73.136076</data>
+  <data key="d2">green_line_head_pims)</data>
+</node>
+<node id="_Foreign Office South">
+  <data key="d0">33.712899</data>
+  <data key="d1">73.101262</data>
+  <data key="d2">green_line_head_pims)</data>
+</node>
+<node id="_ABPARA South">
+  <data key="d0">33.705923</data>
+  <data key="d1">73.088807</data>
+  <data key="d2">green_line_head_pims)</data>
+</node>
+<node id="_CDA South">
+  <data key="d0">33.700303431924866</data>
+  <data key="d1">73.0781500655588</data>
+  <data key="d2">green_line_head_pims)</data>
+</node>
+<node id="_G-7/G-8">
+  <data key="d0">33.69769731791605</data>
+  <data key="d1">73.06192043418612</data>
+  <data key="d2">green_line_head_pims)</data>
+</node>
+<node id="_PIMS GATE ">
+  <data key="d0">33.705359</data>
+  <data key="d1">73.055402</data>
+  <data key="d2">green_line_head_pims)</data>
+</node>
+<node id="_PIMS ">
+  <data key="d0">33.70536252884795</data>
+  <data key="d1">73.0506062954996</data>
+  <data key="d2">green_line_head_pims)</data>
+</node>
+<node id="Faizabad Stop">
+  <data key="d0">33.663307879319646</data>
+  <data key="d1">73.08461236420581</data>
+  <data key="d2">R131</data>
+</node>
+<node id="Margla Town Stop">
+  <data key="d0">33.68171156819532</data>
+  <data key="d1">73.10180459477836</data>
+  <data key="d2">R131</data>
+</node>
+<node id="Rawal Chowk Bus Stop">
+  <data key="d0">33.68935387290288</data>
+  <data key="d1">73.11519299906564</data>
+  <data key="d2">R131</data>
+</node>
+<node id="NIH Stop">
+  <data key="d0">33.685493</data>
+  <data key="d1">73.134796</data>
+  <data key="d2">R131</data>
+</node>
+<node id="Shehzad Town Stop">
+  <data key="d0">33.67674290619772</data>
+  <data key="d1">73.14240798248416</data>
+  <data key="d2">R131</data>
+</node>
+<node id="Chatha Bakhtawar Bus Stop">
+  <data key="d0">33.66527254658122</data>
+  <data key="d1">73.15232645595268</data>
+  <data key="d2">R131</data>
+</node>
+<node id="Taramri Stop">
+  <data key="d0">33.64452757118508</data>
+  <data key="d1">73.1642499630511</data>
+  <data key="d2">R131</data>
+</node>
+<node id="Faiz Ahmad Faiz">
+  <data key="d0">33.675797</data>
+  <data key="d1">73.05425</data>
+  <data key="d2">orange_line_F</data>
+</node>
+<node id="G-9/H-9">
+  <data key="d0">33.677327</data>
+  <data key="d1">73.034861</data>
+  <data key="d2">orange_line_F</data>
+</node>
+<node id="High Court">
+  <data key="d0">33.66713</data>
+  <data key="d1">73.015372</data>
+  <data key="d2">orange_line_F</data>
+</node>
+<node id="Police Foundation">
+  <data key="d0">33.662927</data>
+  <data key="d1">73.00725</data>
+  <data key="d2">orange_line_F</data>
+</node>
+<node id="NUST">
+  <data key="d0">33.655761</data>
+  <data key="d1">72.993628</data>
+  <data key="d2">orange_line_F</data>
+</node>
+<node id="G-12 West/NUST">
+  <data key="d0">33.649536</data>
+  <data key="d1">72.981811</data>
+  <data key="d2">orange_line_F</data>
+</node>
+<node id="GOLRA MORR/G-13">
+  <data key="d0">33.640966</data>
+  <data key="d1">72.962592</data>
+  <data key="d2">orange_line_F</data>
+</node>
+<node id="N-5">
+  <data key="d0">33.631496</data>
+  <data key="d1">72.945174</data>
+  <data key="d2">orange_line_F</data>
+</node>
+<node id="NIIA">
+  <data key="d0">33.55596789620706</data>
+  <data key="d1">72.83736429401118</data>
+  <data key="d2">orange_line_F</data>
+</node>
+<node id="PIMS ">
+  <data key="d0">33.70536252884795</data>
+  <data key="d1">73.0506062954996</data>
+  <data key="d2">green_line_head_barakahu</data>
+</node>
+<node id="PIMS GATE ">
+  <data key="d0">33.70584</data>
+  <data key="d1">73.055355</data>
+  <data key="d2">green_line_head_barakahu</data>
+</node>
+<node id="G-7/G-8">
+  <data key="d0">33.697595</data>
+  <data key="d1">73.062584</data>
+  <data key="d2">green_line_head_barakahu</data>
+</node>
+<node id="CDA">
+  <data key="d0">33.700732</data>
+  <data key="d1">73.077761</data>
+  <data key="d2">green_line_head_barakahu</data>
+</node>
+<node id="ABPARA">
+  <data key="d0">33.705766</data>
+  <data key="d1">73.0879</data>
+  <data key="d2">green_line_head_barakahu</data>
+</node>
+<node id="Foreign Office">
+  <data key="d0">33.712899</data>
+  <data key="d1">73.101262</data>
+  <data key="d2">green_line_head_barakahu</data>
+</node>
+<node id="Lake view North">
+  <data key="d0">33.7230302941645</data>
+  <data key="d1">73.13540695959207</data>
+  <data key="d2">green_line_head_barakahu</data>
+</node>
+<node id="Malpur North">
+  <data key="d0">33.729744</data>
+  <data key="d1">73.14457</data>
+  <data key="d2">green_line_head_barakahu</data>
+</node>
+<node id="Shahdara Stop North">
+  <data key="d0">33.734781</data>
+  <data key="d1">73.159255</data>
+  <data key="d2">green_line_head_barakahu</data>
+</node>
+<node id="Barakahu">
+  <data key="d0">33.73545711136281</data>
+  <data key="d1">73.16536185943997</data>
+  <data key="d2">green_line_head_barakahu</data>
+</node>
+<node id="_NIIA">
+  <data key="d0">33.562702</data>
+  <data key="d1">72.83717</data>
+  <data key="d2">orange_line_R</data>
+</node>
+<node id="_N-5">
+  <data key="d0">33.632397</data>
+  <data key="d1">72.94467</data>
+  <data key="d2">orange_line_R</data>
+</node>
+<node id="_GOLRA MORR/G-13">
+  <data key="d0">33.641549</data>
+  <data key="d1">72.962385</data>
+  <data key="d2">orange_line_R</data>
+</node>
+<node id="_G-12 West/NUST">
+  <data key="d0">33.650032</data>
+  <data key="d1">72.98099</data>
+  <data key="d2">orange_line_R</data>
+</node>
+<node id="_NUST">
+  <data key="d0">33.656296</data>
+  <data key="d1">72.993069</data>
+  <data key="d2">orange_line_R</data>
+</node>
+<node id="_Police Foundation">
+  <data key="d0">33.663494</data>
+  <data key="d1">73.006883</data>
+  <data key="d2">orange_line_R</data>
+</node>
+<node id="_High Court">
+  <data key="d0">33.66777232693704</data>
+  <data key="d1">73.01467612799007</data>
+  <data key="d2">orange_line_R</data>
+</node>
+<node id="_G-9/H-9">
+  <data key="d0">33.67783</data>
+  <data key="d1">73.03401</data>
+  <data key="d2">orange_line_R</data>
+</node>
+<node id="_Faiz Ahmad Faiz">
+  <data key="d0">33.676176430128656</data>
+  <data key="d1">73.05499565060474</data>
+  <data key="d2">orange_line_R</data>
+</node>
+<node id="Soan Bus Stop">
+  <data key="d0">33.56944744258021</data>
+  <data key="d1">73.1580424049942</data>
+  <data key="d2">R124A</data>
+</node>
+<node id="PWD Bus Stop">
+  <data key="d0">33.57604747786253</data>
+  <data key="d1">73.15312713600323</data>
+  <data key="d2">R124A</data>
+</node>
+<node id="Korang Bus Stop">
+  <data key="d0">33.5774510191994</data>
+  <data key="d1">73.15196921722482</data>
+  <data key="d2">R124A</data>
+</node>
+<node id="Airport Society Bus Stop">
+  <data key="d0">33.59379906917127</data>
+  <data key="d1">73.13979017347205</data>
+  <data key="d2">R124A</data>
+</node>
+<node id="Judicial Bus Stop">
+  <data key="d0">33.59626492357502</data>
+  <data key="d1">73.1378919706739</data>
+  <data key="d2">R124A</data>
+</node>
+<node id="Koral BUS STOP">
+  <data key="d0">33.602444575649294</data>
+  <data key="d1">73.13297873865666</data>
+  <data key="d2">R124A</data>
+</node>
+<node id="Gangal West">
+  <data key="d0">33.61269590396994</data>
+  <data key="d1">73.12563706484633</data>
+  <data key="d2">R124A</data>
+</node>
+<node id="Fizaia / Khanna Stop">
+  <data key="d0">33.62066421641603</data>
+  <data key="d1">73.11992955429594</data>
+  <data key="d2">R124A</data>
+</node>
+<node id="Khanna pul Bus stop">
+  <data key="d0">33.62706274753323</data>
+  <data key="d1">73.11493868334757</data>
+  <data key="d2">R124A</data>
+</node>
+<node id="Zia Masjid Station - Blue Line Metrobus">
+  <data key="d0">33.63702222714094</data>
+  <data key="d1">73.10770564413035</data>
+  <data key="d2">R124A</data>
+</node>
+<node id="Blue Line Metro - Kuri Road stop">
+  <data key="d0">33.64246801249511</data>
+  <data key="d1">73.1036340213994</data>
+  <data key="d2">R124A</data>
+</node>
+<node id="Blue Line Metro - Iqbal Town Stop">
+  <data key="d0">33.645795375872716</data>
+  <data key="d1">73.10115003055623</data>
+  <data key="d2">R124A</data>
+</node>
+<node id="Blue Line Metro - Dhoke Kala Khan Stop">
+  <data key="d0">33.64990282389965</data>
+  <data key="d1">73.0980589109705</data>
+  <data key="d2">R124A</data>
+</node>
+<node id="Blue Line Metro - Sohan Stop">
+  <data key="d0">33.659616891183354</data>
+  <data key="d1">73.09079481844122</data>
+  <data key="d2">R124A</data>
+</node>
+<node id="Shakar Parian Stop">
+  <data key="d0">33.67785284642</data>
+  <data key="d1">73.07691183337224</data>
+  <data key="d2">R124A</data>
+</node>
+<node id="T&amp;T Stop (Zero Point)">
+  <data key="d0">33.69484784597345</data>
+  <data key="d1">73.0641689593044</data>
+  <data key="d2">R124A</data>
+</node>
+<node id="Blue/ Green Line Metro - PIMS Gate">
+  <data key="d0">33.706376682818025</data>
+  <data key="d1">73.05553192997426</data>
+  <data key="d2">R124A</data>
+</node>
+<node id="Faisal Mosque Bus Stand">
+  <data key="d0">33.727957096622966</data>
+  <data key="d1">73.03962241813834</data>
+  <data key="d2">R124A</data>
+</node>
+<edge source="_Barakahu" target="_Shahdara Stop south">
+  <data key="d3">722</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="_Shahdara Stop south" target="_Malpur South">
+  <data key="d3">1645</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="_Malpur South" target="_Lake view South">
+  <data key="d3">1002</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="_Lake view South" target="_Foreign Office South">
+  <data key="d3">5521</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="_Foreign Office South" target="_ABPARA South">
+  <data key="d3">1958</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="_Foreign Office South" target="Foreign Office">
+  <data key="d6">0.0</data>
+  <data key="d5">True</data>
+  <data key="d4">False</data>
+</edge>
+<edge source="_ABPARA South" target="_CDA South">
+  <data key="d3">1172</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="_CDA South" target="_G-7/G-8">
+  <data key="d3">2622</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="_G-7/G-8" target="_PIMS GATE ">
+  <data key="d3">1182</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="_PIMS GATE " target="_PIMS ">
+  <data key="d3">685</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="Faizabad Stop" target="Margla Town Stop">
+  <data key="d3">2670</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="Blue Line Metro - Sohan Stop" target="Faizabad Stop">
+  <data key="d6">0.7041624663197125</data>
+  <data key="d5">True</data>
+  <data key="d4">False</data>
+</edge>
+<edge source="Margla Town Stop" target="Rawal Chowk Bus Stop">
+  <data key="d3">1601</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="Rawal Chowk Bus Stop" target="NIH Stop">
+  <data key="d3">1917</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="NIH Stop" target="Shehzad Town Stop">
+  <data key="d3">1201</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="Shehzad Town Stop" target="Chatha Bakhtawar Bus Stop">
+  <data key="d3">1609</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="Chatha Bakhtawar Bus Stop" target="Taramri Stop">
+  <data key="d3">2733</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="Faiz Ahmad Faiz" target="G-9/H-9">
+  <data key="d3">2367</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="G-9/H-9" target="High Court">
+  <data key="d3">2132</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="High Court" target="Police Foundation">
+  <data key="d3">885</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="Police Foundation" target="NUST">
+  <data key="d3">1492</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="NUST" target="G-12 West/NUST">
+  <data key="d3">1297</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="G-12 West/NUST" target="GOLRA MORR/G-13">
+  <data key="d3">2030</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="GOLRA MORR/G-13" target="N-5">
+  <data key="d3">1960</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="GOLRA MORR/G-13" target="_GOLRA MORR/G-13">
+  <data key="d6">0.06759950822911262</data>
+  <data key="d5">True</data>
+  <data key="d4">False</data>
+</edge>
+<edge source="N-5" target="NIIA">
+  <data key="d3">16637</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="PIMS " target="PIMS GATE ">
+  <data key="d3">585</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="PIMS GATE " target="G-7/G-8">
+  <data key="d3">1369</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="G-7/G-8" target="CDA">
+  <data key="d3">1650</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="CDA" target="ABPARA">
+  <data key="d3">1099</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="ABPARA" target="Foreign Office">
+  <data key="d3">1467</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="Foreign Office" target="Lake view North">
+  <data key="d3">3573</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="Lake view North" target="Malpur North">
+  <data key="d3">1137</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="Malpur North" target="Shahdara Stop North">
+  <data key="d3">1497</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="Shahdara Stop North" target="Barakahu">
+  <data key="d3">583</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="Barakahu" target="_Barakahu">
+  <data key="d6">0.0</data>
+  <data key="d5">True</data>
+  <data key="d4">False</data>
+</edge>
+<edge source="_NIIA" target="_N-5">
+  <data key="d3">17222</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="_N-5" target="_GOLRA MORR/G-13">
+  <data key="d3">2075</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="_GOLRA MORR/G-13" target="_G-12 West/NUST">
+  <data key="d3">2103</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="_GOLRA MORR/G-13" target="GOLRA MORR/G-13">
+  <data key="d6">0.06759950822911262</data>
+  <data key="d5">True</data>
+  <data key="d4">False</data>
+</edge>
+<edge source="_G-12 West/NUST" target="_NUST">
+  <data key="d3">1326</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="_NUST" target="_Police Foundation">
+  <data key="d3">1508</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="_Police Foundation" target="_High Court">
+  <data key="d3">952</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="_High Court" target="_G-9/H-9">
+  <data key="d3">3075</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="_G-9/H-9" target="_Faiz Ahmad Faiz">
+  <data key="d3">4480</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="Soan Bus Stop" target="PWD Bus Stop">
+  <data key="d3">864</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="PWD Bus Stop" target="Korang Bus Stop">
+  <data key="d3">190</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="Korang Bus Stop" target="Airport Society Bus Stop">
+  <data key="d3">2141</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="Airport Society Bus Stop" target="Judicial Bus Stop">
+  <data key="d3">326</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="Judicial Bus Stop" target="Koral BUS STOP">
+  <data key="d3">825</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="Koral BUS STOP" target="Gangal West">
+  <data key="d3">1329</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="Gangal West" target="Fizaia / Khanna Stop">
+  <data key="d3">1042</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="Fizaia / Khanna Stop" target="Khanna pul Bus stop">
+  <data key="d3">848</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="Khanna pul Bus stop" target="Zia Masjid Station - Blue Line Metrobus">
+  <data key="d3">1294</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="Zia Masjid Station - Blue Line Metrobus" target="Blue Line Metro - Kuri Road stop">
+  <data key="d3">713</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="Blue Line Metro - Kuri Road stop" target="Blue Line Metro - Iqbal Town Stop">
+  <data key="d3">436</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="Blue Line Metro - Iqbal Town Stop" target="Blue Line Metro - Dhoke Kala Khan Stop">
+  <data key="d3">540</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="Blue Line Metro - Dhoke Kala Khan Stop" target="Blue Line Metro - Sohan Stop">
+  <data key="d3">1271</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="Blue Line Metro - Sohan Stop" target="Shakar Parian Stop">
+  <data key="d3">2401</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="Shakar Parian Stop" target="T&amp;T Stop (Zero Point)">
+  <data key="d3">2227</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="T&amp;T Stop (Zero Point)" target="Blue/ Green Line Metro - PIMS Gate">
+  <data key="d3">1511</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="Blue/ Green Line Metro - PIMS Gate" target="Faisal Mosque Bus Stand">
+  <data key="d3">3457</data>
+  <data key="d4">True</data>
+  <data key="d5">False</data>
+</edge>
+<edge source="Blue/ Green Line Metro - PIMS Gate" target="PIMS GATE ">
+  <data key="d6">0.061880002221773166</data>
+  <data key="d5">True</data>
+  <data key="d4">False</data>
+</edge>
+<edge source="_G-7/G-8" target="Faiz Ahmad Faiz">
+  <data key="d6">2.0</data>
+  <data key="d5">True</data>
+  <data key="d4">False</data>
+</edge>
+</graph></graphml>

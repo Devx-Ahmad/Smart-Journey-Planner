@@ -1,0 +1,8 @@
+{
+    "name": "Smart Journy Planner",
+    "version": "0.1.0",
+    "description": "Backend API for Smart Journey Planner mobile application.",
+    "title": "Journey Planner API",
+    "url": "localhost:3000/",
+    "sampleUrl": "localhost:3000/"
+  }

@@ -1,0 +1,84 @@
+<h1 class="heading" style="color: white; font-weight:bold; padding:5px;">View Stop</h1>
+<div class="d-flex justify-content-between flex-wrap flex-md nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+  <h1 class="h2">
+    <%= stop.stopName %>
+  </h1>
+
+</div>
+
+<div class="col py-3">
+  <div class="row">
+    <div class="col">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <!-- <li class="breadcrumb-item"><a href="/">Dashboard</a></li>-->
+          <li class="breadcrumb-item active" style="color: white; font-weight:bold; padding:5px;">
+            <%= stop.stopName %>
+          </li>
+        </ol>
+      </nav>
+    </div>
+    <div class="col text-end fw-lighter">
+      <b>Last Updated <%= new Date(stop.updatedAt).toUTCString() %> </b>
+      <b>StopId:</b>
+      <%= stop._id %>
+    </div>
+  </div>
+</div>
+
+<ul class="list-group">
+  <li class="list-group-item">
+    <div class="row">
+      <div class="col" style="max-width: 140px"><b>Stop Id:</b></div>
+      <div class="col">
+        <%= stop.stopId %>
+      </div>
+    </div>
+  </li>
+
+  <li class="list-group-item">
+    <div class="row">
+      <div class="col" style="max-width: 140px" style="color: white; font-weight:bold; padding:5px;"><b>Stop Name:</b>
+      </div>
+      <div class="col">
+        <%= stop.stopName%>
+      </div>
+    </div>
+  </li>
+
+  <li class="list-group-item">
+    <div class="row">
+      <div class="col" style="max-width: 140px"><b>Longitude:</b></div>
+      <div class="col">
+        <%= stop.longitude %>
+      </div>
+    </div>
+  </li>
+
+  <li class="list-group-item">
+    <div class="row">
+      <div class="col" style="max-width: 140px"><b>Latitude:</b></div>
+      <div class="col">
+        <%= stop.latitude %>
+      </div>
+    </div>
+  </li>
+
+  <li class="list-group-item">
+    <div class="row">
+      <!-- <div class="col" style="max-width: 140px"><b>Date Created:</b></div>
+      <div class="col">
+        <%= stop.createdAt %>-->
+    </div>
+    </div>
+  </li>
+
+  <li class="list-group-item">
+    <div class="row">
+      <!-- <div class="col" style="max-width: 140px"><b>Date Modified:</b></div>
+      <div class="col">
+        <%= stop.updatedAt %>-->
+    </div>
+    </div>
+  </li>
+</ul>

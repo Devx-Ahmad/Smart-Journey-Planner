@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <style>
+    body {
+      font-family: "Arial", sans-serif;
+      margin: 0;
+      overflow: hidden;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-image: url('images/3.jpeg');
+      background-size: cover;
+    }
+
+    .login-container {
+      position: relative;
+      overflow: hidden;
+      width: 450px;
+      max-width: 100%;
+      border-radius: 8px;
+      box-sizing: border-box;
+      animation: fadeIn 1s ease-in-out;
+      background-color: rgba(255, 255, 255, 0.5);
+      color: #000;
+    }
+
+    .login-container:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.2);
+      z-index: -1;
+    }
+
+    .login-container h2 {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .login-form {
+      display: flex;
+      flex-direction: column;
+      padding: 30px;
+      box-sizing: border-box;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+      /* Make label text bold */
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 12px;
+      border: 3px solid #918e8e;
+      border-radius: 25px;
+      /* Make input fields round */
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      background-color: #231b97;
+      color: #fff;
+      border: none;
+      padding: 14px;
+      border-radius: 25px;
+      /* Make submit button round */
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #201a72;
+    }
+
+    .form-group a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .form-group a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="login-container">
+    <h2>Admin Login</h2>
+    <form class="login-form" method="post" action="/login">
+      <div class="form-group">
+        <label for="name">Username:</label>
+        <input type="text" id="name" name="name" required autocomplete="off" />
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required autocomplete="off" />
+      </div>
+      <div class="form-group">
+        <input type="submit" id="submit" />
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
