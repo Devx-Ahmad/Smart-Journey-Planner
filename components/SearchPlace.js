@@ -16,11 +16,11 @@ import {BlurView} from '@react-native-community/blur';
 import backgroundImage from '../images/2.jpg'; // Import the local image
 import DeviceInfo from 'react-native-device-info'; // Import DeviceInfo
 
-const API_KEY = 'AIzaSyD6NQgAw8rJbMfkCnYY6Y4zC_2W3ZUIMj8';
+const API_KEY = '';
 const PLACES_API_BASE_URL =
-  'https://maps.googleapis.com/maps/api/place/autocomplete/json';
+  '';
 const PLACE_DETAILS_API_BASE_URL =
-  'https://maps.googleapis.com/maps/api/place/details/json';
+  '';
 
 class SearchPlaces extends Component {
   constructor(props) {
