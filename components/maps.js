@@ -13,7 +13,7 @@ import InputField from './InputField_v1';
 import SlideUpPanel from './SlideUpPanel';
 //import SlideUpPanel from './ScrollTest';
 
-const API_KEY = 'AIzaSyD6NQgAw8rJbMfkCnYY6Y4zC_2W3ZUIMj8';
+const API_KEY = '';
 
 const BusTrackingMap = () => {
   const navigation = useNavigation();
